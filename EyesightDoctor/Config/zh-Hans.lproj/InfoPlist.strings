@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  EyesightDoctor
+
+  Created by Chonghua Yu on 2018/10/23.
+  Copyright © 2018 Chonghua Yu. All rights reserved.
+*/
+"CFBundleDisplayName"="视力评测";
+"NSCameraUsageDescription"="允许使用摄像头来测试距离";
+"NSPhotoLibraryAdditionsUsageDescription"="是否允许访问相册以来保存图片";
+"NSPhotoLibraryUsageDescription"="App需要您的同意,才能访问相册";

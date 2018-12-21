@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  EyesightDoctor
+
+  Created by Chonghua Yu on 2018/10/23.
+  Copyright © 2018 Chonghua Yu. All rights reserved.
+*/
+"CFBundleDisplayName"="EyesightTest";
+"NSCameraUsageDescription"="Allow the use of cameras for ranging";
+"NSPhotoLibraryAdditionsUsageDescription"="Whether to allow access to album to save pictures";
+"NSPhotoLibraryUsageDescription"="App needs your permission to access the album";

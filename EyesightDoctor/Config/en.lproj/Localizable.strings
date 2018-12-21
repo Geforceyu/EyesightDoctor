@@ -1,0 +1,107 @@
+/* 
+  Localizable.strings
+  EyesightDoctor
+
+  Created by Chonghua Yu on 2018/9/25.
+  Copyright © 2018年 Chonghua Yu. All rights reserved.
+*/
+/*
+ RootViewController.m
+ */
+"检测"="Test";
+"设置"="Setting";
+
+/*
+ CaptureManager.m
+ */
+"提示"="Tip";
+"确定"="Sure";
+"没有相机权限"="No camera permissions";
+
+/*
+ SettingsViewController.m
+ */
+"免费次数"="free times";
+"已解锁无限测试次数"="Unloked";
+"解锁无限测试次数"="Unlimited number";
+"赏个好评"="Give a good review";
+"意见反馈"="Feedback";
+"隐私政策"="Privacy Policy";
+
+/*
+ HomeViewController.m
+ */
+"免费测试次数已用完，是否购买解锁次数限制"="The number of free tests has been used up";
+"购买"="Buy";
+"取消"="Cancel";
+"视力测试"="Eye Test";
+
+/*
+ TestedHistoryView.m
+ */
+"历史检测"="History";
+"无数据"="Empty";
+
+/*
+ ColorBlock.m
+ */
+"开始"="Start";
+"剩余免费测试次数"="Free Times";
+"已解锁"="Unlocked";
+
+/*
+ TestResultsViewController.m
+ */
+"完成"="Complete";
+"您的视力很棒哦，请继续保持~"="Your eyesight is very good. Please keep it up";
+"您的视力还不错哦，请继续保持~"="Your eyesight is not bad. Please keep it up";
+"您的视力一般般哦，请注意用眼~"="Your eyesight is normal, please use your eyes ~";
+"您有些近视哦，请注意用眼~"="You have some shortsightedness, please pay attention to ~";
+"您的近视有些严重了，请注意用眼"="Your nearsightedness is a little serious, please pay attention to it";
+"您的眼镜厚度不薄了吧~"="Your glasses are not thinner";
+"评分"="Score";
+
+/*
+ TestStep_1VC.m
+ */
+"继续"="Next";
+
+
+/*
+ SignView.m
+ */
+"请保持合适距离"="Please keep a proper distance";
+"太近了！"="Too close!";
+"离远一点点"="Stay away";
+"靠近一点点"="A little closer";
+
+/*
+ TestNavigationController.m
+ */
+"是否退出测试？"="Exit the test?";
+
+/*
+ TestStep_2VC.m
+ */
+"请往 E 开口方向滑动"="slide towards the opening of E";
+"看不清楚"="Can't see clearly";
+
+"您的手机没有打开程序内付费购买"="Your phone does not open the program to pay for purchases";
+"没有可供购买的商品"="There is nothing to buy";
+"购买成功"="Buy Success";
+"购买中..."="during purchase";
+"交易失败"="Purchase failed";
+"已经购买过"="Purchased already";
+
+"提交成功"="Submitted successfully";
+"提交失败，请重试"="Submission failed, please try again";
+"请填写后提交"="Please fill in and submit";
+"我希望得到您的建议"="I hope to get your advice";
+"未检测到人脸"="No Face";
+"分享给朋友"="Share";
+"测试历史"="Test History";
+"更多"="More";
+"快来测测您现在的视力值如何了"="Measure your present eyesight";
+"恢复购买"="Restore Purchases";
+"恢复中..."="Restoring...";
+"恢复购买前请确保在AppStore中已登录之前购买此产品的AppleID"="Please ensure that the AppleID of this product is purchased before the purchase is resumed in the AppStore";

@@ -1,0 +1,53 @@
+//
+//  PrefixHeader.pch
+//  EyesightDoctor
+//
+//  Created by Chonghua Yu on 2018/9/25.
+//  Copyright © 2018年 Chonghua Yu. All rights reserved.
+//
+
+#import "UIView+Frame.h"
+#import "UIView+Gradient.h"
+#import "UIView+HUD.h"
+#import "UIFont+Category.h"
+#import "Colours.h"
+#import "FontAwesomeKit.h"
+#import "MBProgressHUD.h"
+
+const static NSInteger APP_FREE_TESTCOUNT = 3;
+
+#define deviceWidth [UIScreen mainScreen].bounds.size.width
+#define deviceHeight [UIScreen mainScreen].bounds.size.height
+#define iPhone4 (deviceHeight == 480)
+#define iPhone5 (deviceHeight == 568)
+#define iPhone6 (deviceHeight == 667)
+#define iPhone6p (deviceHeight == 736)
+#define iPhoneX (deviceHeight >= 812)
+#define TopGap (iPhoneX ? 24 : 0)
+#define GAP20 (20+TopGap)
+
+
+#define weakify(var) __weak typeof(var) weak_##var = var;
+#define strongify(var) \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Wshadow\"") \
+__strong typeof(var) var = weak_##var; \
+_Pragma("clang diagnostic pop")
+
+#define Local(key) NSLocalizedString(key,nil)
+
+#ifdef DEBUG
+#define DEBUG_LOG(format, ...) NSLog((@"%@(%d)%s:\n" format), [[NSString stringWithCString:__FILE__ encoding:NSASCIIStringEncoding] lastPathComponent], __LINE__, __FUNCTION__, ##__VA_ARGS__)
+#else
+#define DEBUG_LOG(format, ...)
+#endif
+
+#define kTestHistory @"TestHistory"
+#define kIsUnLock @"kIsUnLock"
+#define kTestedTimes @"kTestedTimes"
+
+#define APP_ID @"1439861243"
+// iOS 11 以下的评价跳转
+#define APP_OPEN_EVALUATE [NSString stringWithFormat:@"itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=%@", APP_ID]
+// iOS 11 的评价跳转
+#define APP_OPEN_EVALUATE_AFTER_IOS11 [NSString stringWithFormat:@"itms-apps://itunes.apple.com/cn/app/id%@?mt=8&action=write-review", APP_ID]
